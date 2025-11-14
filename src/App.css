@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-blue: #022749;
+  --lighter-primary-color: #146aba;
+  /* --button-blue: #0e69b6;
+  --button-hover: #1971c2; */
+  --highlight-gold: #d4af37;
+  /* --purple-text-color: #d4af37;
+  --brown-text-color: #492402; */
+  --text-light: #f4f4f4;
+  --text-muted: #e8e8e8;
+  --text-dark: #252628;
+  --background-light: #eef5fb;
+  --border-radius: 0.8rem;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  height: 700vh;
+  /* color: #e8e8e8; */
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 64em) {
+  /*1024px*/
+  .groups-info-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+  .each-group-outer-container:last-child {
+    grid-column: -3/-1;
+    justify-self: center;
+  }
+  .pastor-container {
+    grid-template-columns: 1fr;
+    padding: 7rem 0 7rem 3rem;
+  }
+  .pastor-container img {
+    justify-self: center;
+  }
+  .pastor {
+    margin-top: 0;
+    width: 95%;
+    text-align: center;
+  }
+  .sermons-container {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .sermon-video video {
+    height: 100%;
+  }
+  .sermons-info {
+    padding: 1rem 0 0 0;
+  }
+  .attendance-info-image {
+    grid-template-columns: 1fr;
+  }
+  .attendance-image {
+    display: none;
+  }
+
+  .faq-container {
+    width: 97%;
+  }
+  .info {
+    line-height: 1.9;
+  }
+}
+
+@media (max-width: 44em) {
+  /*704px*/
+  .quote-container {
+    width: 90%;
+  }
+  header {
+    align-items: end;
+    padding-bottom: 4rem;
+  }
+  .header-content {
+    width: 90%;
+    padding-left: 2rem;
+  }
+  header h1 {
+    font-size: 5.5rem;
+  }
+  header p {
+    font-size: 2.3rem;
+  }
+  .quote-container h2 {
+    font-size: 3.3rem;
+  }
+  .sermons-info h3 {
+    font-size: 3.5rem;
+  }
+  .attendance-info h3 {
+    line-height: 1.5;
+  }
+  .medium-of-joining h3 {
+    font-size: 3.5rem;
+  }
+  .groups-info-container {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0;
+  }
+  /* .sermons-container {
+    gap: 0;
+  } */
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 32em) {
+  /*512px*/
+  header h1 {
+    font-size: 4.5rem;
+  }
+  header p {
+    font-size: 2rem;
+  }
+  .quote-container h2 {
+    font-size: 3rem;
+  }
+  .attendance-info {
+    padding: 1rem 0 0 0;
+  }
+  .attendance-info .subtitle {
+    font-size: 1.6rem;
+  }
+  .attendance-info h3 {
+    font-size: 2.3rem;
+  }
+  .medium-of-joining div {
+    flex-direction: column;
+  }
+  .attendance-info p {
+    font-size: 1.8rem;
+  }
+  .medium-of-joining h3 {
+    font-size: 3.2rem;
+  }
+  .pastor-container {
+    padding: 7rem 0 7rem 1.5rem;
+  }
+  .groups-container .heading h2,
+  .faq-heading h3 {
+    font-size: 3rem;
+  }
+  .faq-heading p {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 26em) {
+  .nav-bar img {
+    width: 7rem;
+  }
+  header h1 {
+    font-size: 3.7rem;
+  }
+  .header-content {
+    width: 95%;
+  }
+  header p {
+    font-size: 1.9rem;
+  }
+  .nav-bar-links ul.display {
+    width: 60%;
+  }
+  .quote-container h2 {
+    font-size: 2.6rem;
+  }
+  .quote-container p {
+    font-size: 1.8rem;
+  }
+  .pastor h3 {
+    font-size: 3.3rem;
+  }
+  .groups-container .heading p {
+    line-height: 1.6;
+  }
+  .sermons-info .subtitle {
+    font-size: 1.5rem;
+  }
+  .sermons-info h3 {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+  .faq {
+    padding: 2rem 1.5rem;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .info {
+    font-size: 1.8rem;
+  }
+}

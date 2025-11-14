@@ -1,0 +1,65 @@
+.nav-bar {
+  padding: 1rem 4rem 0.5rem 3rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.nav-bar img {
+  width: 8rem;
+}
+.nav-bar-links {
+  flex: 1;
+}
+.nav-bar-links ul {
+  gap: 5rem;
+  justify-self: end;
+}
+.nav-bar-links li {
+  list-style: none;
+}
+.nav-bar-links li a {
+  font-size: 1.8rem;
+  color: var(--text-light);
+}
+.nav-bar-links li a:hover {
+  color: var(--highlight-gold);
+}
+.nav-scrolled {
+  background-color: var(--primary-blue);
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.2);
+}
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 45em) {
+  .nav-bar-links ul {
+    display: none;
+  }
+  .nav-bar-links ul.display {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(9px);
+    padding: 10rem 0 3rem 0;
+    width: 45%;
+    z-index: -9;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    gap: 0.7rem;
+    z-index: 999;
+  }
+  .hamburger div {
+    background-color: white;
+    width: 5rem;
+    height: 0.5rem;
+  }
+}

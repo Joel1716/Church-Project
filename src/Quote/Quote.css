@@ -1,0 +1,24 @@
+.quote-container {
+  margin-top: 7rem;
+  width: 75%;
+  max-width: 110rem;
+  margin: 7rem auto;
+  color: var(--text-dark);
+}
+.quote-container h2 {
+  font-size: 3.5rem;
+  line-height: 1.4;
+}
+.quote-container p {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+.quote-container span,
+.bible-quote {
+  color: var(--highlight-gold);
+  font-style: italic;
+}
+.bible-quote {
+  font-size: 2rem;
+}

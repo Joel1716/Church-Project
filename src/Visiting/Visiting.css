@@ -1,0 +1,39 @@
+.pastor-container {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 2rem;
+  background-color: var(--primary-blue);
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    var(--primary-blue),
+    var(--lighter-primary-color)
+  );
+  padding: 7rem 2rem;
+}
+.pastor-container img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  object-fit: cover;
+  justify-self: end;
+}
+.pastor {
+  width: 90%;
+  margin-top: 2rem;
+}
+.pastor h3 {
+  color: var(--text-light);
+  font-size: 3.7rem;
+}
+.pastor-title {
+  font-size: 1.8rem;
+  color: var(--highlight-gold);
+  margin-top: 0.5rem;
+}
+.pastor-message {
+  font-size: 1.7rem;
+  color: var(--text-muted);
+  margin-top: 0.7rem;
+  line-height: 1.6;
+}

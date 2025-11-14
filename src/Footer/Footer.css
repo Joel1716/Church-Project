@@ -1,0 +1,78 @@
+footer {
+  background-color: var(--primary-blue);
+  color: var(--text-light);
+  padding: 4rem 0 2rem 0;
+  margin-top: 7rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  gap: 4rem;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 10rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h4 {
+  color: var(--highlight-gold);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-bottom p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: var(--white-small-text);
+}
+
+.footer-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: var(--white-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: var(--highlight-gold);
+}
+.contact p {
+  margin-bottom: 0.8rem;
+}
+.socials {
+  margin-top: 1.8rem;
+  display: flex;
+  gap: 1.3rem;
+}
+
+.socials a {
+  color: var(--white-text);
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: var(--highlight-gold);
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 3.5rem;
+  padding-top: 2rem;
+  color: var(--white-small-text);
+  font-size: 1.5rem;
+}

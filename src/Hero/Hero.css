@@ -1,0 +1,40 @@
+header {
+  background-image: url("./Crowd-Praying.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.header-content {
+  padding-left: 5rem;
+  width: 75%;
+}
+header h1 {
+  font-size: 7rem;
+  color: var(--text-light);
+}
+header p {
+  font-size: 2.6rem;
+  color: var(--text-muted);
+  margin: 1.5rem 0;
+  line-height: 1.5;
+}
+header button {
+  font-size: 2rem;
+  padding: 1.2rem 3rem;
+}
+
+@media (max-width: 60em) {
+  header {
+    align-items: end;
+    padding-bottom: 4rem;
+  }
+  header h1 {
+    font-size: 6rem;
+  }
+  header p {
+    font-size: 2.3rem;
+  }
+}
