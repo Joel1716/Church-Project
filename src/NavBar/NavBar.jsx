@@ -11,6 +11,7 @@ export default function NavBar() {
     const previous = scrollY.getPrevious();
     if (latest > previous && latest > 150) {
       setHidden(true);
+      setHamburgerClick(false);
     } else {
       setHidden(false);
     }
