@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./faq.css";
+import "./Faq.css";
 export default function Faq() {
   const faqs = [
     {
