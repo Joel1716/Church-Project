@@ -16,7 +16,7 @@ export default function Attendance() {
           <Button borderRadius="30px">More about us</Button>
         </div>
         <div className="attendance-image">
-          <img src="Group-Praying.jpg" alt="" />
+          <img src="Group-Praying.webp" alt="" />
         </div>
       </div>
       <div className="medium-of-joining text-center">

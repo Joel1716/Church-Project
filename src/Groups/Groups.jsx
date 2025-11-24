@@ -3,19 +3,19 @@ import Button from "../Button.jsx";
 export default function Groups() {
   const groupInfo = [
     {
-      img: "Female-Praying.jpg",
+      img: "Female-Praying.webp",
       title: "Teenage Church",
       messsage:
         " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, corrupti? Rerum sequi fugit blanditiis maxime facilis excepturi, nisi hic veniam!",
     },
     {
-      img: "Children.jpg",
+      img: "Children.webp",
       title: "Children Church",
       messsage:
         " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, corrupti? Rerum sequi fugit blanditiis maxime facilis excepturi, nisi hic veniam!",
     },
     {
-      img: "Teenage.jpg",
+      img: "Teenage.webp",
       title: "Youth Service",
       messsage:
         " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, corrupti? Rerum sequi fugit blanditiis maxime facilis excepturi, nisi hic veniam!",
