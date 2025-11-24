@@ -5,7 +5,7 @@ import Visiting from "./Visiting/Visiting.jsx";
 import Groups from "./Groups/Groups.jsx";
 import Attendance from "./Attendance/Attendance.jsx";
 import WatchSermons from "./WatchSermons/WatchSermons.jsx";
-import Faq from "./FAQ/Faq.jsx";
+import Faq from "./FAQ/Faqabc.jsx";
 import Footer from "./Footer/Footer.jsx";
 import "./App.css";
 
