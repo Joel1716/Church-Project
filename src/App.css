@@ -89,18 +89,17 @@ p {
   }
 }
 
-@media (max-width: 44em) {
-  /*704px*/
-  .quote-container {
-    width: 90%;
-  }
-  header {
-    align-items: end;
-    padding-bottom: 4rem;
-  }
+@media (max-width: 54em) {
   .header-content {
     width: 90%;
     padding-left: 2rem;
+  }
+}
+
+@media (max-width: 45em) {
+  /*720px*/
+  .quote-container {
+    width: 90%;
   }
   header h1 {
     font-size: 5.5rem;
@@ -179,10 +178,12 @@ p {
     width: 7rem;
   }
   header h1 {
-    font-size: 3.7rem;
+    font-size: 4.2rem;
   }
   .header-content {
-    width: 95%;
+    width: 97%;
+    text-align: center;
+    padding-left: 0;
   }
   header p {
     font-size: 1.9rem;

@@ -28,8 +28,7 @@ header button {
 
 @media (max-width: 60em) {
   header {
-    align-items: end;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
   }
   header h1 {
     font-size: 6rem;
